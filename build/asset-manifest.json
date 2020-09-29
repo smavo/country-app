@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/country-app/static/css/main.ff8e3ab2.chunk.css",
+    "main.js": "/country-app/static/js/main.3badb5b3.chunk.js",
+    "main.js.map": "/country-app/static/js/main.3badb5b3.chunk.js.map",
+    "runtime-main.js": "/country-app/static/js/runtime-main.5b717548.js",
+    "runtime-main.js.map": "/country-app/static/js/runtime-main.5b717548.js.map",
+    "static/js/2.5175048c.chunk.js": "/country-app/static/js/2.5175048c.chunk.js",
+    "static/js/2.5175048c.chunk.js.map": "/country-app/static/js/2.5175048c.chunk.js.map",
+    "index.html": "/country-app/index.html",
+    "precache-manifest.df6157b5a83841b300ec944931e4b68e.js": "/country-app/precache-manifest.df6157b5a83841b300ec944931e4b68e.js",
+    "service-worker.js": "/country-app/service-worker.js",
+    "static/css/main.ff8e3ab2.chunk.css.map": "/country-app/static/css/main.ff8e3ab2.chunk.css.map",
+    "static/js/2.5175048c.chunk.js.LICENSE.txt": "/country-app/static/js/2.5175048c.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/country-app/static/media/icomoon.be551178.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5b717548.js",
+    "static/js/2.5175048c.chunk.js",
+    "static/css/main.ff8e3ab2.chunk.css",
+    "static/js/main.3badb5b3.chunk.js"
+  ]
+}
