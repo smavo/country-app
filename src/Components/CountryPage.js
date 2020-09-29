@@ -54,7 +54,7 @@ function CountryPage({ match, history }) {
   const dispatch = useDispatch();
   const country = useSelector((state) => state.country);
 
-  console.log(match.params.id);
+  //console.log(match.params.id);
   
   useEffect(() => {
     fetch(

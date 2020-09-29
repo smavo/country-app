@@ -50,8 +50,8 @@ function App() {
         <Router>
           <Header setDarkMode={setDarkMode} darkMode={darkMode} />
           <Switch>
-            <Route path='/'>
             <Route path="/country/:id" component={CountryPage} />
+            <Route path='/'>
               <ActionList />
               <CountryList />
             </Route>

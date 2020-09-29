@@ -43,9 +43,9 @@ html {
 }
 
 :root {
-  --black: #111517;
-  --white: #fff;
-  --grey-light: hsl(0, 0%, 98%);
+  --black: #111517;               /*Color de Fuente*/
+  --white: #fff;                  /* Color Principal */
+  --grey-light: hsl(0, 0%, 98%);  /* Color Secundario */
   --grey-dark: hsl(0, 0%, 52%);
   --grey-placeholder: #c4c4c4;
 }
@@ -66,18 +66,18 @@ main {
 
 .is__darkmode {
   --black: white;
-  --white: hsl(209, 23%, 22%);
-  --grey-light:  hsl(207, 26%, 17%);
+  --white: hsl(0, 0%, 9%);
+  --grey-light:  hsl(209, 89%, 15%);
   --grey-dark: white;
   --grey-placeholder: white;
 }
 
 .is__ligthmode {
-  --black: #111517;
-  --white: #fff;
-  --grey-light: hsl(0, 0%, 77%);
-  --grey-dark: hsl(214, 100%, 75%);
-  --grey-placeholder: #70c6ff;
+  --black: #111517;               /*Color de Fuente*/
+  --white: rgb(112, 112, 112);    /* Color Principal */
+  --grey-light: hsl(0, 0%, 87%);  /* Color Secundario */
+  --grey-dark: hsl(0, 0%, 0%);
+  --grey-placeholder: #000000;
 }
 
 @media (prefers-color-scheme: dark) {

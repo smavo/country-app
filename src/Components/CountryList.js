@@ -42,7 +42,7 @@ function CountryList() {
                     type: "SET_COUNTRY_LIST",
                     payload: list,
                 });
-                console.log(list);
+                //console.log(list);
                 //setCountryList(data);
             })
             .catch(() => {
