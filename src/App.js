@@ -1,23 +1,61 @@
-import React, {useState} from 'react';
+import React, { useState, useEffect } from 'react';
 import './App.css';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { createStore } from "redux";
+import { Provider } from "react-redux";
+import reducer from './assets/JS/reducer';
 
-import Header from "./Components/Header";
 import "./assets/CSS/App.css";
+import Header from "./Components/Header";
+import CountryList from './Components/CountryList';
+import ActionList from './Components/ActionList';
+
+const initialState = {
+  error: "",
+  country: [],
+  countryList: [],
+  countryListByRegion: [],
+  countryListByName: [],
+  countryListFilter: [],
+  region: "none",
+  name: "",
+};
+
+const store = createStore(reducer, initialState);
 
 function App() {
+  /*  Darkmode - LigthMode*/
   const [darkMode, setDarkMode] = useState(false);
+  const [checked, setChecked] = useState(false);
+  const mainClass = darkMode ? "is__darkmode" : "is__ligthmode";
+
+  function changeMedia(mq) {
+    setDarkMode(mq.matches);
+    setChecked(mq.matches);
+  }
+
+  useEffect(() => {
+    const mq = window.matchMedia("(prefers-color-scheme: dark)");
+    mq.addListener(changeMedia);
+    setDarkMode(mq.matches);
+    setChecked(mq.matches);
+  }, []);
 
   return (
-    <div className="App">
-      <Router>
-        <Header setDarkMode={setDarkMode} darkMode={darkMode} />
-        <Switch>
-          <Route path='/' />
+    <main className={mainClass}>
+      <Provider store={store}>
+        <Router>
+          <Header setDarkMode={setDarkMode} darkMode={darkMode} />
+          <Switch>
+            <Route path='/'>
+              <ActionList />
+              <CountryList />
+            </Route>
 
-        </Switch>
-      </Router>
-    </div>
+          </Switch>
+        </Router>
+      </Provider>
+    </main>
   );
 }
 

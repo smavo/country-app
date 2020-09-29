@@ -75,9 +75,9 @@ main {
 .is__ligthmode {
   --black: #111517;
   --white: #fff;
-  --grey-light: hsl(0, 29%, 95%);
-  --grey-dark: hsl(0, 0%, 52%);
-  --grey-placeholder: #c4c4c4;
+  --grey-light: hsl(0, 0%, 77%);
+  --grey-dark: hsl(214, 100%, 75%);
+  --grey-placeholder: #70c6ff;
 }
 
 @media (prefers-color-scheme: dark) {
