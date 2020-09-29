@@ -1,14 +1,17 @@
 import React, { useState, useEffect } from 'react';
-import './App.css';
+
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import { createStore } from "redux";
 import { Provider } from "react-redux";
 import reducer from './assets/JS/reducer';
 
 import "./assets/CSS/App.css";
+
 import Header from "./Components/Header";
 import CountryList from './Components/CountryList';
 import ActionList from './Components/ActionList';
+
+import CountryPage from './Components/CountryPage';
 
 const initialState = {
   error: "",
@@ -48,10 +51,10 @@ function App() {
           <Header setDarkMode={setDarkMode} darkMode={darkMode} />
           <Switch>
             <Route path='/'>
+            <Route path="/country/:id" component={CountryPage} />
               <ActionList />
               <CountryList />
             </Route>
-
           </Switch>
         </Router>
       </Provider>
