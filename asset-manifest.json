@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/country-app/static/css/main.a1026fa7.chunk.css",
+    "main.js": "/country-app/static/js/main.5e88ca03.chunk.js",
+    "main.js.map": "/country-app/static/js/main.5e88ca03.chunk.js.map",
+    "runtime-main.js": "/country-app/static/js/runtime-main.5b717548.js",
+    "runtime-main.js.map": "/country-app/static/js/runtime-main.5b717548.js.map",
+    "static/js/2.5175048c.chunk.js": "/country-app/static/js/2.5175048c.chunk.js",
+    "static/js/2.5175048c.chunk.js.map": "/country-app/static/js/2.5175048c.chunk.js.map",
+    "index.html": "/country-app/index.html",
+    "precache-manifest.64f0f698e632456667a77e6568243f7e.js": "/country-app/precache-manifest.64f0f698e632456667a77e6568243f7e.js",
+    "service-worker.js": "/country-app/service-worker.js",
+    "static/css/main.a1026fa7.chunk.css.map": "/country-app/static/css/main.a1026fa7.chunk.css.map",
+    "static/js/2.5175048c.chunk.js.LICENSE.txt": "/country-app/static/js/2.5175048c.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/country-app/static/media/icomoon.be551178.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5b717548.js",
+    "static/js/2.5175048c.chunk.js",
+    "static/css/main.a1026fa7.chunk.css",
+    "static/js/main.5e88ca03.chunk.js"
+  ]
+}
