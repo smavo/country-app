@@ -75,7 +75,7 @@ main {
 .is__ligthmode {
   --black: #111517;               /*Color de Fuente*/
   --white: #b3b3b3;    /* Color Principal */
-  --grey-light: hsl(0, 0%, 98%);  /* Color Secundario */
+  --grey-light: hsl(0, 0%, 88%);  /* Color Secundario */
   --grey-dark: hsl(0, 0%, 0%);
   --grey-placeholder: #000000;
 }
