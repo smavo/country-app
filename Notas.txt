@@ -1,6 +1,0 @@
-
-## API RESTCOUUNTRIES
-https://restcountries.eu/#api-endpoints-all
-
-## Install
-npm install react-router-dom
